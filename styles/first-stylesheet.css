@@ -66,6 +66,15 @@ li a:hover {
   font-size: 12px;
 }
 
+.bottomnav {
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+  font-style: italic;
+}
+
 /*body elements*/
 
 h1 {
