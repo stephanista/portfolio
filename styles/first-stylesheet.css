@@ -1,15 +1,11 @@
-.center {
-  text-align: center;
-}
+/*nav classes*/
 .righttop {
   float: right;
   color: grey;
   padding: 14px 16px;
   border-right: none;
 }
-nav.navi {
-  text-align: center;
-}
+/*nav elements*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -21,7 +17,6 @@ li {
   float: left;
   border-right: 1px solid #bbb;
 }
-
 li a {
   display: block;
   color: white;
@@ -29,7 +24,26 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
     background-color: #111;
+}
+/*body classes*/
+/*body elements*/
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+h6 {
+  text-align: center;
 }
