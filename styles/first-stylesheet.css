@@ -1,11 +1,14 @@
 /*nav classes*/
+
 .righttop {
   float: right;
   color: grey;
   padding: 14px 16px;
   border-right: none;
 }
+
 /*nav elements*/
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -13,10 +16,12 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
+
 li {
   float: left;
   border-right: 1px solid #bbb;
 }
+
 li a {
   display: block;
   color: white;
@@ -24,26 +29,53 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 li a:hover {
     background-color: #111;
 }
+
 /*body classes*/
+
+.projectimg {
+  display: block;
+  margin: auto;
+  max-width: 25%;
+  height: auto;
+}
+
+.caption {
+  font-style: italic;
+  text-align: center;
+  font-size: 12px;
+}
+
 /*body elements*/
+
 h1 {
   text-align: center;
+  letter-spacing: 2px;
 }
+
 h2 {
   text-align: center;
 }
+
 h3 {
   text-align: center;
 }
+
 h4 {
   text-align: center;
 }
+
 h5 {
   text-align: center;
 }
+
 h6 {
   text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
