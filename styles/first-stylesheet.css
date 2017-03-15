@@ -74,6 +74,26 @@ li a:hover {
   text-align: center;
   font-style: italic;
 }
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
 
 /*body elements*/
 
@@ -98,15 +118,17 @@ h5 {
   text-align: center;
 }
 
-h6 {
+p {
   text-align: center;
 }
 
 a {
   text-decoration: none;
 }
+
 footer {
-  line-height: 30%;
-  position:absolute;
-  bottom:0;
+  position: absolute;
+  bottom: 0;
+  padding: .5rem;
+  text-align: center;
 }
