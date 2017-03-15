@@ -105,3 +105,8 @@ h6 {
 a {
   text-decoration: none;
 }
+footer {
+  line-height: 30%;
+  position:absolute;
+  bottom:0;
+}
