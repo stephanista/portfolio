@@ -1,11 +1,11 @@
-/** { box-sizing: border-box; }*/
+* { box-sizing: border-box; }
 
 /*nav classes*/
 
 .righttop {
   float: right;
   color: grey;
-  padding: 14px 16px;
+  padding: .8rem 1rem;
   border-right: none;
 }
 
@@ -21,14 +21,14 @@ ul {
 
 li {
   float: left;
-  border-right: 1px solid #bbb;
+  border-right: .1rem solid #bbb;
 }
 
 li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: .8rem 1rem;
   text-decoration: none;
 }
 
@@ -51,11 +51,11 @@ li a:hover {
 
 .iconimg {
 
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  height: 20px;
-  width: 20px;
+  border: .05rem solid #ddd;
+  border-radius: .25rem;
+  padding: .25rem;
+  height: 2rem;
+  width: 2rem;
 }
 
 .iconimg:hover {
@@ -65,7 +65,7 @@ li a:hover {
 .caption {
   font-style: italic;
   text-align: center;
-  font-size: 12px;
+  font-size: 1rem;
 }
 
 .bottomnav {
@@ -80,13 +80,15 @@ li a:hover {
 .poem {
   text-align: center;
   font-style: italic;
-  line-height: -.5px;
-  padding-bottom: 3em;
+  line-height: 1rem;
+  padding-bottom: 3rem;
 }
+
+/*Gallery To Do: Turn into flex box*/
 
 div.gallery {
   border: 1px solid #ccc;
-  width: 180px;
+  width: 10rem;
   margin: auto;
 }
 
@@ -100,7 +102,7 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 1rem;
   text-align: center;
 }
 
@@ -109,15 +111,15 @@ section.imggallery {
 }
 
 article.projart {
-  padding-top: 3em;
-  padding-bottom: 3em;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 /*body elements*/
 
 h1 {
   text-align: center;
-  letter-spacing: 4px;
+  letter-spacing: .5rem;
 }
 
 h2 {
@@ -126,7 +128,7 @@ h2 {
 
 h3 {
   text-align: center;
-  padding-top: 1em;
+  padding-top: 1rem;
 }
 
 h4 {
