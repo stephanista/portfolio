@@ -1,5 +1,11 @@
 * { box-sizing: border-box; }
 
+header {
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 /*nav classes*/
 
 .righttop {
@@ -37,6 +43,10 @@ li a:hover {
 }
 
 /*body classes*/
+
+.intro {
+  padding-top: 3rem;
+}
 
 .projectimg {
   display: block;
