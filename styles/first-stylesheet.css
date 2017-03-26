@@ -78,9 +78,10 @@ li a:hover {
 }
 
 .poem {
+  font-family: 'Tangerine', cursive;
+  font-size: 2rem;
   text-align: center;
-  font-style: italic;
-  line-height: 1rem;
+  line-height: 1.75rem;
   padding-bottom: 3rem;
 }
 
