@@ -44,7 +44,11 @@ li a:hover {
 
 /*body classes*/
 
-.intro {
+.introimg {
+  display: block;
+  margin: auto;
+  max-width: 75%;
+  max-width: 75%;
   padding-top: 3rem;
 }
 
@@ -128,6 +132,13 @@ article.projart {
 
 /*body elements*/
 
+body {
+  background-image: url("../images/paintedgalxbp1.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  /*background-color: lightblue;*/
+}
+
 h1 {
   text-align: center;
   letter-spacing: .5rem;
@@ -157,4 +168,28 @@ p {
 a {
   text-decoration: none;
   color: black;
+}
+
+/*Transitions*/
+
+.wig:hover {
+  animation: wiggle 0.82s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+@keyframes wiggle {
+  10%, 90% {
+  transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
