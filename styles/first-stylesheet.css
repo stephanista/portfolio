@@ -55,8 +55,9 @@ li a:hover {
 .projectimg {
   display: block;
   margin: auto;
-  max-width: 25%;
+  max-width: 35%;
   height: auto;
+  padding-top: 3rem;
 }
 
 .iconcontainer {
@@ -101,38 +102,26 @@ li a:hover {
 
 /*Gallery To Do: Turn into flex box*/
 
-div.gallery {
-  border: 1px solid #ccc;
-  width: 10rem;
+.aboutbox {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.about {
   margin: auto;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 1rem;
   text-align: center;
 }
 
-section.imggallery {
-/*use for getting this dang thing right*/
-}
-
-article.projart {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.aboutimg {
+  width: 10rem;
+  height: 10rem;
+  margin: auto;
 }
 
 /*body elements*/
 
-body {
+body.galx {
   background-image: url("../images/paintedgalxbp1.jpg");
   background-attachment: fixed;
   background-size: cover;
@@ -170,6 +159,9 @@ a {
   color: black;
 }
 
+footer {
+  padding-top: 5rem;
+}
 /*Transitions*/
 
 .wig:hover {
