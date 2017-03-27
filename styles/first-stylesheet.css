@@ -103,9 +103,10 @@ li a:hover {
 /*Gallery To Do: Turn into flex box*/
 
 .aboutbox {
-  display: inline-flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding-top: 5rem;
 }
 
 .about {
@@ -114,9 +115,14 @@ li a:hover {
 }
 
 .aboutimg {
-  width: 10rem;
-  height: 10rem;
+  width: 11rem;
+  height: 13rem;
+  padding: 1rem 1rem 1rem 1rem;
   margin: auto;
+}
+
+.aboutimg:hover {
+  box-shadow: 0 0 2px 1px rgb(255, 51, 153);
 }
 
 /*body elements*/
@@ -162,26 +168,27 @@ a {
 footer {
   padding-top: 5rem;
 }
-/*Transitions*/
+
+/*Transitions and Animations*/
 
 .wig:hover {
-  animation: wiggle 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  animation: wiggle 1s ease .1s;
 }
 
 @keyframes wiggle {
   10%, 90% {
-  transform: translate3d(-1px, 0, 0);
+  transform: translate3d(-.25rem, 0, 0);
   }
 
   20%, 80% {
-    transform: translate3d(2px, 0, 0);
+    transform: translate3d(.25rem, 0, 0);
   }
 
   30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
+    transform: translate3d(-.75rem, 0, 0);
   }
 
   40%, 60% {
-    transform: translate3d(4px, 0, 0);
+    transform: translate3d(.75rem, 0, 0);
   }
 }
