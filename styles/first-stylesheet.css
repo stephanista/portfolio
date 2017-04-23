@@ -100,6 +100,32 @@ li a:hover {
   padding-bottom: 3rem;
 }
 
+.resinfo {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.resinfo p {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-bottom: .25rem;
+}
+
+.resform {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.resform input {
+  margin: .5rem .5rem;
+}
+
+.resform fieldset {
+  margin: 1rem 5rem;
+  display: inline-block;
+}
+
 /*Gallery To Do: Turn into flex box*/
 
 .aboutbox {
@@ -141,6 +167,7 @@ h1 {
 
 h2 {
   text-align: center;
+  letter-spacing: .25rem;
 }
 
 h3 {
