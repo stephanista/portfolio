@@ -121,10 +121,15 @@ li a:hover {
   margin: .5rem .5rem;
 }
 
+.resform label {
+  display: block;
+}
+
 .resform fieldset {
   margin: 1rem 5rem;
   display: inline-block;
 }
+
 
 /*Gallery To Do: Turn into flex box*/
 
